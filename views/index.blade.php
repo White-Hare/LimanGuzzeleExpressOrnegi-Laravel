@@ -10,8 +10,8 @@
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" onclick="guzzeleTest()" href="#guzzleTest" data-toggle="tab">
-            <i class="fas fa-server"></i> {{ __("Guzzele Test") }}
+        <a class="nav-link" onclick="guzzleTest()" href="#guzzleTest" data-toggle="tab">
+            <i class="fas fa-server"></i> {{ __("Guzzle Test") }}
         </a>
     </li>
 </ul>

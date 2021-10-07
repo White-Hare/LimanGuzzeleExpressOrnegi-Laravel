@@ -6,6 +6,6 @@ return [
     "get_hostname" => "HostnameController@get",
     "set_hostname" => "HostnameController@set",
 
-    "get_guzzeletestnames" => "GuzzeleTestController@getNames",
-    "add_guzzeletestnames" => "GuzzeleTestController@addName"
+    "get_guzzletestnames" => "GuzzleTestController@getNames",
+    "add_guzzletestnames" => "GuzzleTestController@addName"
 ];

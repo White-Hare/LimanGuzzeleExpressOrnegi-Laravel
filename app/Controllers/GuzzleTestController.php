@@ -6,7 +6,7 @@ use Liman\Toolkit\Shell\Command;
 use GuzzleHttp\Client;
 
 
-class GuzzeleTestController
+class GuzzleTestController
 {
 	private $client;
 

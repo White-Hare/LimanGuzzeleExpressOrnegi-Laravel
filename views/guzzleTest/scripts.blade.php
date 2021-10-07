@@ -3,7 +3,7 @@
         showSwal("{{ __('Yükleniyor...') }}", 'info');
         let data = new FormData();
 
-        request("{{ API('get_guzzeletestnames') }}", data, function(response) {
+        request("{{ API('get_guzzletestnames') }}", data, function(response) {
             response = JSON.parse(response);
 
             let users = response.message;
@@ -42,7 +42,7 @@
 
 
 
-        request("{{ API('add_guzzeletestnames') }}", data,
+        request("{{ API('add_guzzletestnames') }}", data,
             function(response) {
                 response = JSON.parse(response);
                 if(response.status == 200){
@@ -54,7 +54,7 @@
     }
 
 
-    function guzzeleTest() {
+    function guzzleTest() {
         getNames();
     }
 </script>
