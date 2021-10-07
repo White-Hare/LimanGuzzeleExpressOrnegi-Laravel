@@ -1,0 +1,18 @@
+{
+    "name": "denemeiki",
+    "publisher": "Mete ARSLAN",
+    "version": "0.0.1",
+    "version_code": 4,
+    "database": [],
+    "widgets": [],
+    "language": "php",
+    "status": 0,
+    "service": null,
+    "supportedLiman": "1.8.2",
+    "support": "mete.arslan8@hotmail.com",
+    "icon": "fas fa-tick",
+    "require_key": "false",
+    "verification": null,
+    "dependencies": null,
+    "sslPorts": null
+}
